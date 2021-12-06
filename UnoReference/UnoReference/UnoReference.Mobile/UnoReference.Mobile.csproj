@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net6.0-android;net6.0-ios;net6.0-maccatalyst;net6.0-macos</TargetFrameworks>
     <SingleProject>true</SingleProject>
@@ -12,6 +12,30 @@
     <!-- Required for C# Hot Reload -->
     <UseInterpreter Condition="'$(Configuration)' == 'Debug'">True</UseInterpreter>
     <IsUnoHead>true</IsUnoHead>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-android|AnyCPU'">
+    <NoWarn>1701;1702;NU1202</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-android|AnyCPU'">
+    <NoWarn>1701;1702;NU1202</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-ios|AnyCPU'">
+    <NoWarn>1701;1702;NU1202</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-ios|AnyCPU'">
+    <NoWarn>1701;1702;NU1202</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-maccatalyst|AnyCPU'">
+    <NoWarn>1701;1702;NU1202</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-maccatalyst|AnyCPU'">
+    <NoWarn>1701;1702;NU1202</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-macos|AnyCPU'">
+    <NoWarn>1701;1702;NU1202</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-macos|AnyCPU'">
+    <NoWarn>1701;1702;NU1202</NoWarn>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Uno.UI" Version="4.0.7" />
