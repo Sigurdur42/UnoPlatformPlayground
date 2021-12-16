@@ -5,6 +5,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="using:UnoXamarin"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:utu="using:Uno.Toolkit.UI"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
 
@@ -13,5 +14,6 @@
             Margin="20"
             FontSize="30"
             Text="Hello, world! 3" />
+        <Button>Hello and press me</Button>
     </Grid>
 </Page>
