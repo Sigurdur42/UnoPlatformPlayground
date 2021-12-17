@@ -6,6 +6,7 @@
     xmlns:local="using:UnoXamarin"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:utu="using:Uno.Toolkit.UI"
+    xmlns:winControls="using Windows.UI.Xaml.Controls"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
 
@@ -15,5 +16,7 @@
             FontSize="30"
             Text="Hello, world! 3" />
         <Button>Hello and press me</Button>
+
+
     </Grid>
 </Page>

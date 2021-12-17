@@ -1,0 +1,19 @@
+{
+  "solution": {
+    "path": "UnoSample2.sln",
+    "projects": [
+		"UnoSample2.Shared\\UnoSample2.Shared.shproj",
+
+		"UnoSample2.Droid\\UnoSample2.Droid.csproj",
+
+
+
+		"UnoSample2.Wasm\\UnoSample2.Wasm.csproj",
+
+
+		"UnoSample2.Skia.Gtk\\UnoSample2.Skia.Gtk.csproj",
+
+		"UnoSample2.Skia.Linux.FrameBuffer\\UnoSample2.Skia.Linux.FrameBuffer.csproj",
+    ]
+  }
+}
