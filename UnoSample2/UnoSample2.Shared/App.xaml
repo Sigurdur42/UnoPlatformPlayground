@@ -10,12 +10,19 @@
                 <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
 
 
+<!-- Material guide:
+        https://platform.uno/docs/articles/guides/uno-material-walkthrough.html?tabs=tabid-vswin -->
       <!-- Load Material Color Palette -->
             <MaterialColors xmlns="using:Uno.Material" />
 
             <!-- Load the Material control resources -->
  			<MaterialResources xmlns="using:Uno.Material" />
  			
+<!-- Uno toolkit 
+https://github.com/unoplatform/uno.toolkit.ui
+-->
+<!-- Load Toolkit resources -->
+			<ToolkitResources xmlns="using:Uno.Toolkit.UI" />
  			
                 <!-- Place resources here -->
             </ResourceDictionary.MergedDictionaries>
