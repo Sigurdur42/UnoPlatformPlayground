@@ -7,6 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
 xmlns:toolkit="using:Uno.UI.Toolkit"
+xmlns:utu="using:Uno.Toolkit.UI"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <StackPanel toolkit:VisibleBoundsPadding.PaddingMask="Top">
@@ -23,8 +24,24 @@ xmlns:toolkit="using:Uno.UI.Toolkit"
                 <DatePicker Style="{StaticResource MaterialDatePickerStyle}" />
                 <TextBox Text="input" Style="{StaticResource MaterialFilledTextBoxStyle}" />
 
+<utu:CardContentControl Style="{StaticResource MaterialElevatedCardContentControlStyle}">
+	<utu:CardContentControl.ContentTemplate>
+		<DataTemplate>
+			<Grid>
+			    <TextBlock Text="Elevated card" MaxLines="1" Style="{StaticResource MaterialHeadline2}" />
+			</Grid>
+		</DataTemplate>
+	</utu:CardContentControl.ContentTemplate>
+</utu:CardContentControl>
 
-
-
+<utu:CardContentControl Style="{StaticResource MaterialOutlinedCardContentControlStyle }">
+	<utu:CardContentControl.ContentTemplate>
+		<DataTemplate>
+			<Grid>
+			    <TextBlock Text="Outlined card" MaxLines="1" Style="{StaticResource MaterialHeadline6}" />
+			</Grid>
+		</DataTemplate>
+	</utu:CardContentControl.ContentTemplate>
+</utu:CardContentControl>
     </StackPanel>
 </Page>

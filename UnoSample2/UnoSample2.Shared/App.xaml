@@ -12,7 +12,7 @@
 
 <!-- Material guide:
         https://platform.uno/docs/articles/guides/uno-material-walkthrough.html?tabs=tabid-vswin -->
-      <!-- Load Material Color Palette -->
+            <!-- Load Material Color Palette -->
             <MaterialColors xmlns="using:Uno.Material" />
 
             <!-- Load the Material control resources -->
@@ -23,6 +23,9 @@ https://github.com/unoplatform/uno.toolkit.ui
 -->
 <!-- Load Toolkit resources -->
 			<ToolkitResources xmlns="using:Uno.Toolkit.UI" />
+<!--  Load Material Toolkit resources  -->
+			<MaterialToolkitColors xmlns="using:Uno.Toolkit.UI.Material" />
+			<MaterialToolkitResources xmlns="using:Uno.Toolkit.UI.Material" />
  			
                 <!-- Place resources here -->
             </ResourceDictionary.MergedDictionaries>
