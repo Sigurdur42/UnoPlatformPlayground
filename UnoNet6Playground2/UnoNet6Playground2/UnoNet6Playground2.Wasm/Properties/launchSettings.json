@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "UnoNet6Playground2.Wasm": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63763;http://localhost:63764"
+    }
+  }
+}
